@@ -1,3 +1,212 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+    margin: 0;
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.fondo{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+} /*backgroud properties*/
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #2c3e50;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+    top:0;
+    left: 0;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display: flex;
+    margin: 1em 3em 1em;
+}
+.princ{
+    flex-flow: row wrap;
+}
+.princ>*{
+    padding: 10px;
+}
+.inicio{
+    flex: 1 25%;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+.princ div{
+    flex: 2 50%;
+    text-align: right;
+}
+.menu a{
+    vertical-align: middle;
+    margin:0 0.5em 0;
+}
+.white{
+    background-color: #18bc9c;
+    width: 100%;
+    height: 5.1em;
+}
+.aqua{
+    background-color: #18bc9c;
+    color: white;
+}
+.start{
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.start img {
+    height: 20%;
+}
+.start h1{
+    font-size: 480%;
+    margin: 0.3em;
+}
+h3{
+    font-size: 150%;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.icono .barra{
+    width: 7em;
+    background-color: white;
+    height: 0.4em;
+}
+.icono i{
+    padding: 0 0.1em 0;
+}
+.icono>*{
+    display: inline-block;
+    vertical-align: middle;
+}
+.projects{
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.projects img{
+    height: 12em;
+    margin:1em 0.5em 1em;
+}
+.starWhite::after, .starWhite::before{
+    content: "";
+    display: inline-block;
+    width: 7em;
+    border: 0.22em solid white;
+    margin-bottom: 0.6em;
+}
+.starBlack::after, .starBlack::before{
+    content: "";
+    display: inline-block;
+    width: 7em;
+    border: 0.22em solid black;
+    margin-bottom: 0.6em;
+}
+i{
+    margin: 0.3em 0.2em 0.3em 0.3em;
+}
+h2{
+    font-size: 310%;
+    margin: 0;
+}
+.about{
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0% 20% 0%;
+    font-size: 1.3em;
+}
+.about p{
+    text-align: left;
+    flex: 1;
+    margin: 1em;
+}
+.download{
+    flex-flow: row wrap;
+    justify-content:space-around;
+    margin: 0% 41% 0%;
+    font-size: 1.3em;
+    border-radius: 0.3em;
+    border: 0.1em solid white;
+    padding: 0.5em;
+}
+.download p{
+    text-align: left;
+    margin: 0;
+    font-size: 0.9em;
+    align-self: flex-end;
+}
+.contact{
+    color: white;
+    flex-direction: column;
+    margin: 0 20% 0;
+}
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 1em ;
+    background-color: transparent;
+    border: transparent;
+    font-size: 1.5em;
+    border-bottom: 1px solid lightgray;
+}
+.send{
+    width: 3em;
+    background-color: #18bc9c;
+    padding: 0.5em;
+    font-size: 1.5em;
+    border-radius: 0.3em;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+footer{
+    background-color: #2b3d4f;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+footer div{
+    text-align: center;
+    flex: 1;
+    font-size: 110%;
+    margin: 1em;
+}
+footer h3{
+    font-size: 150%;
+}
+.freelancer a{
+    color: #18bc9c;
+}
+.freelancer a:hover{
+    text-decoration: underline;
+}
+.web ul li{
+    display: inline-block;
+    list-style: none;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0.4em;
+    margin-right: 0.3em;
+    margin-left: 0;
+}
+.web ul li:hover{
+    color: #18bc9c;
+    background-color: white;
+}
+.web ul li p{
+    margin: 0.3em 0 0;
+    display: block;
+}
+.web ul{
+    padding: 0;
+}
