@@ -50,6 +50,13 @@ a{
 .menu a{
     vertical-align: middle;
     margin:0 0.5em 0;
+    padding: 0.5em;
+    border-radius: 0.3em;
+}
+.menu a:hover{
+    background-color:#18bc9c;
+    padding: 0.5em;
+    border-radius: 0.3em;
 }
 .white{
     background-color: #18bc9c;
@@ -59,6 +66,10 @@ a{
 .aqua{
     background-color: #18bc9c;
     color: white;
+    border-radius: 0.3em;
+}
+.smallPad{
+    padding: 0.5em;
 }
 .start{
     text-align: center;
